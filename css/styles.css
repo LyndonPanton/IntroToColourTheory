@@ -13,6 +13,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+figcaption {
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 }
@@ -35,6 +39,14 @@ h1 {
 .nav-item:hover, .nav-item:focus {
 	text-decoration: underline;
 	color: #008000;
+}
+
+.example-image {
+	display: block;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 40px;
 }
 
 #footer {
