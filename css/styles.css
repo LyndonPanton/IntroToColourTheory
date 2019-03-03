@@ -26,6 +26,22 @@ h1 {
 	border-radius: 4px;
 	font-size: 18px;
 	font-family: "PT Sans Narrow", sans-serif;
+	transition: color 0.2s linear;
+}
+
+.nav-item:hover, .nav-item:focus {
+	text-decoration: underline;
+	color: #008000;
+}
+
+#footer {
+	text-align: center;
+	color: #FFA500;
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: -8px;
+	margin-left: -9px;
+	width: 105%;
 }
 
 #nav-home {
