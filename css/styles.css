@@ -3,6 +3,11 @@
 	box-sizing: border-box;
 }
 
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
 body {
 	background: linear-gradient(135deg, #FFCCCC, #CCFFFF);
 	/*background-color: #FFCCCC;*/
@@ -11,7 +16,6 @@ body {
 
 h1 {
 	text-align: center;
-	font-family: Laila;
 }
 
 .nav-item {
@@ -42,6 +46,11 @@ h1 {
 	margin-bottom: -8px;
 	margin-left: -9px;
 	width: 105%;
+}
+
+.heading {
+	font-family: Laila;
+	text-decoration: underline;
 }
 
 #nav-home {
