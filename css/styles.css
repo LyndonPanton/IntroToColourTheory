@@ -9,8 +9,7 @@ a {
 }
 
 body {
-	background: linear-gradient(135deg, #FFCCCC, #CCFFFF);
-	/*background-color: #FFCCCC;*/
+	background-color: #CCFFFF; /* Additional Options: #FFCCCC, #FFFFCC, #CCCCFF */
 	background-repeat: no-repeat;
 }
 
