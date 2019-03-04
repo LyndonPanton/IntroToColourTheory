@@ -42,6 +42,13 @@ h1 {
 	color: #008000;
 }
 
+.image-ana {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
 .image-comp {
 	display: block;
 	width: 200px;
