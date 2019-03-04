@@ -72,6 +72,13 @@ h1 {
 	margin: 0 auto;
 }
 
+.image-tri {
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
 .image-wheel {
 	display: block;
 	width: 300px;
