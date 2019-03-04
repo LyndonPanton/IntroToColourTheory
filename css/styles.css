@@ -18,8 +18,17 @@ figcaption {
 	text-decoration: underline;
 }
 
+footer {
+	position: absolute;
+}
+
 h1 {
 	text-align: center;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 .nav-item {
@@ -120,6 +129,10 @@ h1 {
 .heading {
 	font-family: Laila;
 	text-decoration: underline;
+}
+
+#github-link {
+	color: #FFA500;
 }
 
 #nav-home {
