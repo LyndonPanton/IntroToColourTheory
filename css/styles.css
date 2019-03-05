@@ -125,14 +125,17 @@ html {
 	text-align: center;
 	color: #FFA500;
 	background-color: black;
-	border-radius: 5px;
 	margin-bottom: -8px;
 	margin-left: -9px;
-	width: 105%;
+	width: 100%;
 }
 
 #github-link {
 	color: #FFA500;
+}
+
+#nav-bar {
+	width: 100%;
 }
 
 #nav-home {
