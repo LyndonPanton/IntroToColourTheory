@@ -31,24 +31,9 @@ html {
 	min-height: 100%;
 }
 
-.nav-item {
-	display: block;
-	width: 104%;
-	height: 25px;
-	text-align: center;
-	margin-left: -8px;
-	margin-bottom: 0px;
-	background-color: #CCCCFF;
-	border: 0.5px #FFFFCC outset;
-	border-radius: 4px;
-	font-size: 18px;
-	font-family: "PT Sans Narrow", sans-serif;
-	transition: color 0.2s linear;
-}
-
-.nav-item:hover, .nav-item:focus {
+.heading {
+	font-family: Laila;
 	text-decoration: underline;
-	color: #008000;
 }
 
 .image-ana {
@@ -116,6 +101,26 @@ html {
 	margin: 0 auto;
 }
 
+.nav-item {
+	display: block;
+	width: 104%;
+	height: 25px;
+	text-align: center;
+	margin-left: -8px;
+	margin-bottom: 0px;
+	background-color: #CCCCFF;
+	border: 0.5px #FFFFCC outset;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: "PT Sans Narrow", sans-serif;
+	transition: color 0.2s linear;
+}
+
+.nav-item:hover, .nav-item:focus {
+	text-decoration: underline;
+	color: #008000;
+}
+
 #footer {
 	text-align: center;
 	color: #FFA500;
@@ -124,11 +129,6 @@ html {
 	margin-bottom: -8px;
 	margin-left: -9px;
 	width: 105%;
-}
-
-.heading {
-	font-family: Laila;
-	text-decoration: underline;
 }
 
 #github-link {
