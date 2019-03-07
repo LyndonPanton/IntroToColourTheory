@@ -121,6 +121,13 @@ html {
 	color: #008000;
 }
 
+#did-you-know {
+	color: #FFFFFF;
+	background-color: #4682B4;
+	border-radius: 50%; 
+	text-align: center;
+}
+
 #footer {
 	text-align: center;
 	color: #FFA500;
