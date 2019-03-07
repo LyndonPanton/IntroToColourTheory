@@ -122,6 +122,11 @@ html {
 }
 
 #did-you-know {
+	display: block;
+	position: relative;
+	left: 50%;
+	width: 20px;
+	height: 20px;
 	color: #FFFFFF;
 	background-color: #4682B4;
 	border-radius: 50%; 
