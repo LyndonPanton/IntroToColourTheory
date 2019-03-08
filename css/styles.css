@@ -31,6 +31,18 @@ html {
 	min-height: 100%;
 }
 
+.did-you-know {
+	display: block;
+	position: relative;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	color: #FFFFFF;
+	background-color: #4682B4;
+	border-radius: 50%; 
+	text-align: center;
+}
+
 .heading {
 	font-family: Laila;
 	text-decoration: underline;
@@ -119,18 +131,6 @@ html {
 .nav-item:hover, .nav-item:focus {
 	text-decoration: underline;
 	color: #008000;
-}
-
-#did-you-know {
-	display: block;
-	position: relative;
-	left: 50%;
-	width: 20px;
-	height: 20px;
-	color: #FFFFFF;
-	background-color: #4682B4;
-	border-radius: 50%; 
-	text-align: center;
 }
 
 #footer {
