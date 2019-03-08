@@ -153,3 +153,15 @@ html {
 #nav-home {
 	margin-top: -9px;
 }
+
+@media screen and (min-width: 1200px) {
+	section {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	#main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
