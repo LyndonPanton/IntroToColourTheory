@@ -42,23 +42,15 @@ Array.from(achromaticInfo).forEach(function(icon) {
 		// console.log(this);
 		// console.log(this.parentElement);
 		// console.log(this.parentNode);
+		let modal = document.createElement("span");
+		modal.className = "modal";
+		modal.addEventListener("click", function() {
+			modal.parentElement.removeChild(modal);
+		});
+
 		switch(this.parentElement.id) {
 			case "introduction":
-				// console.log("intro...");
-				let modal = document.createElement("span");
-				modal.style.position = "absolute";
-				modal.style.display = "block";
-				modal.style.margin = "-100px auto 0 auto";
-				// modal.style.top = "-20px";
-				modal.style.right = "0px";				
-				modal.style.left = "0px";
-				modal.style.padding = "5px";
-				modal.style.opacity = 0.95;
-				modal.style.borderRadius = "5px";
-				modal.style.backgroundColor = "#94D6FA";
-				modal.style.width = "350px";
-				modal.style.height = "150px";
-				modal.style.textAlign = "center";
+				console.log("intro...");
 				modal.textContent = didYouKnow[0]["info"];
 				this.parentElement.appendChild(modal);
 				break;
