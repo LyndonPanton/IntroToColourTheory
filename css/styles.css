@@ -113,6 +113,37 @@ html {
 	margin: 0 auto;
 }
 
+.modal {
+	/*				let modal = document.createElement("span");
+				modal.style.position = "absolute";
+				modal.style.display = "block";
+				modal.style.margin = "-100px auto 0 auto";
+				// modal.style.top = "-20px";
+				modal.style.right = "0px";				
+				modal.style.left = "0px";
+				modal.style.padding = "5px";
+				modal.style.opacity = 0.95;
+				modal.style.borderRadius = "5px";
+				modal.style.backgroundColor = "#94D6FA";
+				modal.style.width = "350px";
+				modal.style.height = "150px";
+				modal.style.textAlign = "center";*/
+	position: absolute;
+	display: block;
+	/* Center the modal */
+	margin: -100px auto 0px auto;
+	right: 0px;
+	left: 0px;
+	width: 350px;
+	height: 150px;
+	/* ******** */
+	padding: 5px;
+	opacity: 0.95;
+	border-radius: 5px;
+	background-color: #94D6FA;
+	text-align: center;
+}
+
 .nav-item {
 	display: block;
 	width: 104%;
