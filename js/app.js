@@ -38,16 +38,12 @@ let didYouKnow = [
 let achromaticInfo = document.getElementsByClassName("did-you-know");
 Array.from(achromaticInfo).forEach(function(icon) {
 	icon.addEventListener("click", function() {
-		// console.log("Info icon clicked.");
-		// console.log(this);
-		// console.log(this.parentElement);
-		// console.log(this.parentNode);
 		let modal = document.createElement("span");
 		modal.className = "modal";
 		modal.addEventListener("click", function() {
 			modal.parentElement.removeChild(modal);
 		});
-		
+
 
 		switch(this.parentElement.id) {
 			case "introduction":
