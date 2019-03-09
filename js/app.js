@@ -38,6 +38,60 @@ let didYouKnow = [
 let achromaticInfo = document.getElementsByClassName("did-you-know");
 Array.from(achromaticInfo).forEach(function(icon) {
 	icon.addEventListener("click", function() {
-		console.log("Info icon clicked.");
+		// console.log("Info icon clicked.");
+		// console.log(this);
+		// console.log(this.parentElement);
+		// console.log(this.parentNode);
+		switch(this.parentElement.id) {
+			case "introduction":
+				// console.log("intro...");
+				let modal = document.createElement("span");
+				modal.style.position = "absolute";
+				modal.style.display = "block";
+				modal.style.margin = "-100px auto 0 auto";
+				// modal.style.top = "-20px";
+				modal.style.right = "0px";				
+				modal.style.left = "0px";
+				modal.style.padding = "5px";
+				modal.style.opacity = 0.95;
+				modal.style.borderRadius = "5px";
+				modal.style.backgroundColor = "#94D6FA";
+				modal.style.width = "350px";
+				modal.style.height = "150px";
+				modal.style.textAlign = "center";
+				modal.textContent = didYouKnow[0]["info"];
+				this.parentElement.appendChild(modal);
+				break;
+			case "achromatic":
+				console.log("achromatic...");
+				break;
+			case "primary":
+				console.log("primary...");
+				break;
+			case "secondary":
+				console.log("secondary...");
+				break;
+			case "tertiary":
+				console.log("tertiary...");
+				break;
+			case "complementary":
+				console.log("complementary...");
+				break;
+			case "triadic":
+				console.log("triadic...");
+				break;
+			case "analogous":
+				console.log("analogous...");
+				break;
+			case "monochromatic":
+				console.log("monochromatic...");
+				break;
+			case "summary":
+				console.log("summary...");
+				break;
+			default:
+				console.error("Section not found.");
+				break;
+		}
 	});
 });
