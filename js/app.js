@@ -47,6 +47,7 @@ Array.from(achromaticInfo).forEach(function(icon) {
 		modal.addEventListener("click", function() {
 			modal.parentElement.removeChild(modal);
 		});
+		
 
 		switch(this.parentElement.id) {
 			case "introduction":
@@ -56,30 +57,48 @@ Array.from(achromaticInfo).forEach(function(icon) {
 				break;
 			case "achromatic":
 				console.log("achromatic...");
+				modal.textContent = didYouKnow[1]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "primary":
 				console.log("primary...");
+				modal.textContent = didYouKnow[2]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "secondary":
 				console.log("secondary...");
+				modal.textContent = didYouKnow[3]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "tertiary":
 				console.log("tertiary...");
+				modal.textContent = didYouKnow[4]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "complementary":
 				console.log("complementary...");
+				modal.textContent = didYouKnow[5]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "triadic":
 				console.log("triadic...");
+				modal.textContent = didYouKnow[6]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "analogous":
 				console.log("analogous...");
+				modal.textContent = didYouKnow[7]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "monochromatic":
 				console.log("monochromatic...");
+				modal.textContent = didYouKnow[8]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			case "summary":
 				console.log("summary...");
+				modal.textContent = didYouKnow[9]["info"];
+				this.parentElement.appendChild(modal);
 				break;
 			default:
 				console.error("Section not found.");
