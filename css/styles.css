@@ -43,6 +43,10 @@ html {
 	text-align: center;
 }
 
+.fa-info {
+	cursor: help;
+}
+
 .heading {
 	font-family: Laila;
 	text-decoration: underline;
