@@ -15,3 +15,10 @@
 > 2. To access full content make sure the browser has Javascript available and enabled
 
 ### Preview
+![Screenshot1](./img/Screenshot1.png)
+![Screenshot2](./img/Screenshot2.png)
+![Screenshot3](./img/Screenshot3.png)
+![Screenshot4](./img/Screenshot4.png)
+![Screenshot5](./img/Screenshot5.png)
+![Screenshot6](./img/Screenshot6.png)
+![Screenshot7](./img/Screenshot7.png)
